@@ -50,9 +50,26 @@ h1{
         
 }
 
-.anchor{
-        margin-left: 156px;
+.link-button{
+
+        background-color: #E02C6D;
+       
+        margin-left: 400px;
+        padding-right: 60px;
+        padding-bottom: 30px;
+        padding-left:10px ;
+       
+       
+        
 }
+.fa-arrow-right{
+        color: #FFFFFF;
+        margin-left: 500px;
+       padding-bottom: 50px;
+     
+}
+
+
 nav img{
         width:556px;
         height: 438px;
@@ -60,7 +77,4 @@ nav img{
        margin-right: 250px;
         
         
-}
-.#{
-        margin-right: 10px;
 }
