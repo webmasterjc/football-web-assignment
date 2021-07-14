@@ -1,19 +1,16 @@
 
- @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+ 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 
 
-*{
-        padding: 0%;
-        margin: 0%;
-        text-decoration: none;
-        list-style: none;
-        box-sizing: border-box;
+main{
+        font-family: 'Poppins', sans-serif;
 }
-} 
+
 body{
         font-family: 'Poppins', sans-serif;
-        font-weight: bold;
+        
        
         
 }
@@ -23,6 +20,11 @@ body{
 
 .menu{
       margin-top: 42px;
+}
+
+.logo-name{
+        margin-top: 42px;
+        margin-left: 156px;
 }
 
 nav{
@@ -36,7 +38,8 @@ nav a{
         color: #FFFFFF;
         font-weight: 500;
         font-size: 16px;
-        margin-right: 200px;
+        margin-right: 100px;
+        margin-top: 170px;
 }
 
 h1{
@@ -45,7 +48,7 @@ h1{
         width: 485px;
         height: 230px;
        margin-top: 207px;
-     margin-left: 400px;
+     margin-left: 300px;
        
         
 }
@@ -54,19 +57,20 @@ h1{
 
         background-color: #E02C6D;
        
-        margin-left: 400px;
-        padding-right: 60px;
-        padding-bottom: 30px;
+        margin-left: 300px;
+        padding-right: 40px;
+        padding-top: 10px;
+        padding-bottom: 15px;
         padding-left:10px ;
+        
        
        
         
 }
 .fa-arrow-right{
         color: #FFFFFF;
-        margin-left: 500px;
-       padding-bottom: 50px;
-     
+        margin-right: 30px;
+        
 }
 
 
@@ -75,6 +79,96 @@ nav img{
         height: 438px;
         margin-top: 153px;
        margin-right: 250px;
+       margin-left: 30px;
         
         
+}
+
+
+
+.first-sec{
+        margin-left: 180px;
+        margin-right: 210px;
+        
+}
+.second-sec{
+       
+        display: flex;
+        margin-top: 70px;
+        margin-left: 180px;
+        margin-right: 210px;
+        width: 330px;
+        height: 474px;
+        
+}
+.third-sec{
+        display: flex;
+        margin-top: 70px;
+        margin-left: 180px;
+        margin-right: 210px;
+}
+.fourth-sec{
+        display: flex;
+        margin-top: 70px;
+
+        margin-left: 180px;
+        margin-right: 210px;
+        
+}
+
+.players{
+        display: flex;
+        margin-top: 70px;
+        margin-left: 180px;
+        margin-right: 210px;
+        width: 330px;
+        height: 474px;
+
+
+        
+}
+
+.player-img{
+        width: 300px;
+        height: 256px;
+
+}
+
+h3{
+        margin-top: 30px;
+}
+
+
+
+p{
+        margin-top: 10px;
+        width: 300px;   
+        height: 104px; 
+}
+
+.messi{
+        margin-left: 30px;
+        width: 300px;
+        height: 256px;
+}
+
+
+.Ronaldo{
+        margin-left: 30px;
+}
+footer{
+        text-align: center;
+        font-size:18px;
+        margin-top: 250px;
+        
+}
+
+footer .logo-img{
+        width: 500px;
+        height: 110px;
+        margin-left: 450px;
+}
+
+.icon{
+        margin-top: 150px;
 }
