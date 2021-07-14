@@ -7,6 +7,7 @@ main {
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
 }
 .menu-bar {
   display: flex;
@@ -16,7 +17,6 @@ body {
   margin-top: 42px;
   margin-right: 20px;
 }
-
 
 .top-heading {
   margin-right: 100px;
@@ -73,45 +73,46 @@ nav img {
   margin-left: 30px;
 }
 
-
-
-
 /* animation-transform */
-.animation:hover{
- transform: rotate(60deg);
- 
+.animation:hover {
+  transform: rotate(60deg);
 }
-
-
-
-
 
 /* 1-4 section area */
 
 .first-sec {
+  background-color: rgb(211, 211, 211);
   margin-left: 180px;
   margin-right: 210px;
+  margin-bottom: 100px;
+  background-size: 500px 500px;
+  width: 1500px;
+  height: 800px;
 }
 .second-sec {
+  background-color: rgb(211, 211, 211);
   display: flex;
   margin-top: 70px;
   margin-left: 180px;
   margin-right: 210px;
-  width: 330px;
-  height: 474px;
+  width: 1500px;
+  height: 650px;
 }
 .third-sec {
   display: flex;
   margin-top: 70px;
   margin-left: 180px;
   margin-right: 210px;
+  margin-bottom: 100px;
 }
 .fourth-sec {
-  display: flex;
   margin-top: 70px;
+  margin-bottom: 50px;
 
   margin-left: 180px;
   margin-right: 210px;
+  width: 1500px;
+  height: 650px;
 }
 
 /* players section */
@@ -126,8 +127,8 @@ nav img {
 }
 
 .player-img {
-  width: 300px;
-  height: 256px;
+  width: 350px;
+  height: 300px;
 }
 
 h3 {
@@ -146,56 +147,74 @@ p {
 
 /* messi section  */
 .messi {
-  margin-left: 40px;
+  margin-left: 50px;
   width: 300px;
   height: 256px;
 }
 
 .Ronaldo {
-  margin-left: 40px;
+  margin-left: 100px;
 }
 
 /* Di María section */
 
 .Kylian {
-  margin-left: 40px;
+  margin-left: 50px;
   width: 300px;
   height: 256px;
 }
 
 .Salah {
-  margin-left: 40px;
+  margin-left: 100px;
 }
 
 /* Ozil section */
 
 .Mesut-Ozil {
-  margin-left: 40px;
+  margin-left: 50px;
   width: 300px;
   height: 256px;
 }
 
 .Mauro-Icardi {
-  margin-left: 40px;
+  margin-left: 100px;
 }
 
 /* Harry Kane section */
 
 .Kevin {
-  margin-left: 40px;
+  margin-left: 50px;
   width: 300px;
   height: 256px;
 }
 
 .Philippe {
-  margin-left: 40px;
+  margin-left: 100px;
+}
+
+/* extra html/css for first sec*/
+
+h2 {
+  color: #230174;
+
+  font-size: 50px;
+  margin-left: 180px;
+  background-color: burlywood;
+  background-color: 20px;
+  padding: 12px;
+  padding-left: 30px;
+}
+
+.horigental {
+  margin-bottom: 110px;
 }
 
 /* footer section */
 footer {
+  background-color: rgb(114, 114, 114);
   text-align: center;
   font-size: 18px;
-  margin-top: 100px;
+  margin-top: 150px;
 }
 
 footer .logo-img {
@@ -203,42 +222,39 @@ footer .logo-img {
   height: 200px;
   margin-left: 450px;
   margin-bottom: 20px;
+  margin-top: 50px;
 }
 
-.icon {s
-  margin-top: 150px;
+.icon {
+  margin-top: 100px;
 }
 
+.copyright {
+  margin-top: 50px;
+}
 
 /* -------------------
 media queries 
 ---------------------*/
 
-
-
-
-
 /* mobile devices */
 
-@media only screen and (max-width:688px) {
-        section{
-                width: 100%;
-        }
-        .players{ 
-               
-                grid-template-columns: repeat(1, 1fr);
-        }
+@media only screen and (max-width: 688px) {
+  section {
+    width: 100%;
+  }
+  .players {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 /* tablet devices */
 
-@media only screen and (min-width:688px) and (max-width:992px){
-        section{
-                width: 100%;
-        }
-        .players{
-                grid-template-columns: repeat(2, 1fr);
-
-        }
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+  section {
+    width: 100%;
+  }
+  .players {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
-
