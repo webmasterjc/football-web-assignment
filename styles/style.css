@@ -1,3 +1,4 @@
+/* font awesome */
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 main {
@@ -13,6 +14,12 @@ body {
 
 .menu {
   margin-top: 42px;
+  margin-right: 20px;
+}
+
+
+.top-heading {
+  margin-right: 100px;
 }
 
 .logo-name {
@@ -40,7 +47,7 @@ h1 {
   width: 485px;
   height: 230px;
   margin-top: 207px;
-  margin-left: 300px;
+  margin-left: 150px;
 }
 
 .link-button {
@@ -51,10 +58,11 @@ h1 {
   padding-top: 10px;
   padding-bottom: 15px;
   padding-left: 10px;
+  margin-left: 150px;
 }
 .fa-arrow-right {
   color: #ffffff;
-  margin-right: 30px;
+  padding-right: 30%;
 }
 
 nav img {
@@ -64,6 +72,19 @@ nav img {
   margin-right: 250px;
   margin-left: 30px;
 }
+
+
+
+
+/* animation-transform */
+.animation:hover{
+ transform: rotate(60deg);
+ 
+}
+
+
+
+
 
 /* 1-4 section area */
 
@@ -111,6 +132,8 @@ nav img {
 
 h3 {
   margin-top: 30px;
+  font-weight: bold;
+  color: #000000;
 }
 
 /* peragraph tag */
@@ -123,64 +146,99 @@ p {
 
 /* messi section  */
 .messi {
-  margin-left: 30px;
+  margin-left: 40px;
   width: 300px;
   height: 256px;
 }
 
 .Ronaldo {
-  margin-left: 30px;
+  margin-left: 40px;
 }
 
 /* Di María section */
 
 .Kylian {
-  margin-left: 30px;
+  margin-left: 40px;
   width: 300px;
   height: 256px;
 }
 
 .Salah {
-  margin-left: 30px;
+  margin-left: 40px;
 }
 
 /* Ozil section */
 
 .Mesut-Ozil {
-  margin-left: 30px;
+  margin-left: 40px;
   width: 300px;
   height: 256px;
 }
 
 .Mauro-Icardi {
-  margin-left: 30px;
+  margin-left: 40px;
 }
 
 /* Harry Kane section */
 
 .Kevin {
-  margin-left: 30px;
+  margin-left: 40px;
   width: 300px;
   height: 256px;
 }
 
 .Philippe {
-  margin-left: 30px;
+  margin-left: 40px;
 }
 
 /* footer section */
 footer {
   text-align: center;
   font-size: 18px;
-  margin-top: 250px;
+  margin-top: 100px;
 }
 
 footer .logo-img {
-  width: 500px;
-  height: 110px;
+  width: 300px;
+  height: 200px;
   margin-left: 450px;
+  margin-bottom: 20px;
 }
 
-.icon {
+.icon {s
   margin-top: 150px;
 }
+
+
+/* -------------------
+media queries 
+---------------------*/
+
+
+
+
+
+/* mobile devices */
+
+@media only screen and (max-width:688px) {
+        section{
+                width: 100%;
+        }
+        .players{ 
+               
+                grid-template-columns: repeat(1, 1fr);
+        }
+}
+
+/* tablet devices */
+
+@media only screen and (min-width:688px) and (max-width:992px){
+        section{
+                width: 100%;
+        }
+        .players{
+                grid-template-columns: repeat(2, 1fr);
+
+        }
+}
+
